@@ -30,7 +30,7 @@ Data file structure:
 
 2. Build and train the model
 
-    - Load a pre-trained network `densenet121` ([reference](https://arxiv.org/pdf/1608.06993.pdf)) and freeze parameters
+    - Load a pre-trained network `densenet121` ([reference](https://arxiv.org/ftp/arxiv/papers/1705/1705.03004.pdf)) and freeze parameters
     - Define a new, untrained neural network as a classifier. The classifier has a hidden layer (ReLU activation) and an output layer (LogSoftmax activation). Assign dropout to reduce overfitting.
     - Assign criterion (NLLLoss, negative log loss) and optimizer (Adam, adaptive moment estimation, [reference](https://arxiv.org/abs/1412.6980))
     - Train the classifier layers using forward and backpropagation on GPU
